@@ -1,46 +1,113 @@
-# Getting Started with Create React App
+# Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A responsive business portfolio website built with React and Material UI.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Responsive design for all devices
+- Dark/Light mode toggle
+- Theme color customization with 6 color options
+- Modern animations and transitions
+- Typewriter effect for skill titles
+- Navigation component for quick access to sections
 
-### `npm start`
+## Project Structure
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```
+portfolio/
+├── public/
+│   ├── images/
+│   │   └── background.png
+│   └── index.html
+├── src/
+│   ├── assets/
+│   │   └── images/
+│   ├── components/
+│   │   ├── Hero/
+│   │   │   ├── Header.tsx
+│   │   │   ├── HeroSection.tsx
+│   │   │   └── ProfileImage.tsx
+│   │   └── common/
+│   │       ├── ColorSelector.tsx
+│   │       ├── Logo.tsx
+│   │       ├── Navigation.tsx
+│   │       └── ThemeToggle.tsx
+│   ├── styles/
+│   ├── theme/
+│   │   ├── ThemeProvider.tsx
+│   │   └── constants.ts
+│   ├── App.tsx
+│   └── index.tsx
+└── package.json
+```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+1. Install dependencies:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   ```
+   npm install
+   ```
 
-### `npm run build`
+2. Start the development server:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```
+   npm start
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Important: Setting up your images
 
-### `npm run eject`
+### Profile Image
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+You need to add your profile image to make the hero section complete:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Create a folder called `images` in the `public` directory if it doesn't exist already
+2. Add your profile photo with dimensions approximately 500px × 800px
+3. Add the following in the HeroSection.tsx file:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```jsx
+// In the HeroSection.tsx file where the ProfileImage component is used:
+<ProfileImage imageSrc="/images/your-profile-photo.jpg" />
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Background Image
 
-## Learn More
+For the background effect:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Add a dark-themed background image to the `public/images/` directory named `background.png`
+2. The background should be subtle, as it will be overlaid with a dark gradient
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Customization
+
+### Theme Colors
+
+You can modify the theme colors in the `src/theme/constants.ts` file if needed. Current colors:
+
+- Lime: #9CF626 (default)
+- Red: #DB0C02
+- Orange: #F64D04
+- Dark Blue: #04048A
+- Purple: #7467FF
+- Gray: #676767
+
+### Content
+
+Update the content in the various components to reflect your information and portfolio.
+
+## Building for Production
+
+```
+npm run build
+```
+
+This will create an optimized build in the `build` folder ready for deployment.
+
+## Technologies Used
+
+- React.js
+- TypeScript
+- Material UI (MUI)
+- Emotion (Styled Components)
+- Typewriter Effect
