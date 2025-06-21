@@ -182,7 +182,7 @@ const Footer: React.FC = () => {
       <AnimatedBorder positionType="top" />
       <Box sx={{ position: 'relative', zIndex: 3, display: 'flex', flexDirection: 'column', alignItems: 'center', pt: 2 }}>
         <GradientName>MADHUSHAN</GradientName>
-        <JobTitle>software Developer</JobTitle>
+        <JobTitle>Software Developer</JobTitle>
         <NavRow>
           {navItems.map((item) => (
             <Tooltip title={item.label} key={item.label} arrow>

@@ -4,12 +4,7 @@ import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
 const certificates = [
-  {
-    image: '/images/meta.png',
-    name: 'Introduction Front-End Development',
-    subtitle: 'Meta',
-    detail: 'https://coursera.org/verify/SX214LSSC7GU',
-  },
+ 
   {
     image: '/images/google (1).jpeg',
     name: 'Start the UX Design Process: Empathize, Define,and Ideate',
@@ -39,6 +34,11 @@ const certificates = [
   name: 'SPRINTX interuniversity Development Competition ',
   subtitle: '',
   detail: '',
+  }, {
+    image: '/images/meta.png',
+    name: 'Introduction Front-End Development',
+    subtitle: 'Meta',
+    detail: 'https://coursera.org/verify/SX214LSSC7GU',
   },
 
 
@@ -72,7 +72,7 @@ const EducationSection: React.FC = () => {
           <Box sx={{ flex: 1,  borderRadius: 2, p: { xs: 2, md: 3 }, mb: { xs: 3, md: 0 }, minHeight: 320 }}>
             {}
             <Typography variant="body1" sx={{ color: '#444' }}>
-            BSc (Hons) Software Engineering CINEC Campus 2022 - Presen
+            BSc (Hons) Software Engineering CINEC Campus 2022 - Present
             </Typography><br />
             <Typography variant="body1" sx={{ color: '#444' }}>
             Advanced Level  Weera Keppetipola Central College, Akuramboda ( MATALE ) 2011-2019
