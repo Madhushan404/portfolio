@@ -46,7 +46,7 @@ const projects = [
   },
   {
     id: 5,
-    title: 'D-Gaming Website Responsive Front End',
+    title: 'D-Gaming Website ',
     subtitle: 'Front-End Development',
     description: 'This is a sample E- Commerce Web UI',
     image: '/images/dgaming.png',
