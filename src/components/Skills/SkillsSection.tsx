@@ -171,12 +171,12 @@ const codingSkills = [
 
 // Soft Skills data
 const softSkills = [
-  'Good Computer Hardware Knowledge',
+ 'Better Computer Hardware Knowledge',
   'Problem-Solving & Critical Thinking',
   'Collaboration & Teamwork',
   'Adaptability',
   'Growth Mindset & Self-Learning',
-  'Better Computer Hardware Knowledge',
+ 
 ];
 
 const SkillsSection: React.FC = () => {
