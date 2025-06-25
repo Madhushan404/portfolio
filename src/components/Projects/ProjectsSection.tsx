@@ -30,9 +30,9 @@ const projects = [
     subtitle: 'fulstack',
     description: 'This is an online book-selling and buying e-commerce website.',
     image: '/images/Book.png',
-    techStack: ['React', 'Node JS', 'Express js', 'Mongo DB'],
-    githubUrl: 'https://github.com/yourusername/other',
-    liveUrl: 'https://otherproject.com',
+    techStack: ['React', 'Node JS', 'Google Book API', 'Mongo DB'],
+    githubUrl: 'https://github.com/Madhushan404/Book-Store-E-commerce-website.git',
+  
   },
   {
     id: 4,
@@ -41,8 +41,8 @@ const projects = [
     description: 'This allows someone else to get to know my skills and abilities in a better way.',
     image: '/images/my.png',
     techStack: ['React', 'Node JS', 'Express js', 'Mongo DB'],
-    githubUrl: 'https://github.com/yourusername/another',
-    liveUrl: 'https://anotherproject.com',
+    githubUrl: 'https://github.com/Madhushan404/portfolio.git',
+    liveUrl: 'https://madhushanjayathilake.vercel.app/',
   },
   {
     id: 5,
@@ -51,8 +51,8 @@ const projects = [
     description: 'This is a sample E- Commerce Web UI',
     image: '/images/dgaming.png',
     techStack: ['React', 'Node JS', 'Express js', 'CDNJSlibraries'],
-    githubUrl: 'https://github.com/yourusername/another',
-    liveUrl: 'https://anotherproject.com',
+    githubUrl: 'https://github.com/Madhushan404/D-gaming--E---Commerce-Website-Front-End.git',
+   
   },
 ];
 
