@@ -30,7 +30,7 @@ const projects = [
     subtitle: 'fulstack',
     description: 'This is an online book-selling and buying e-commerce website.',
     image: '/images/Book.png',
-    techStack: ['React', 'Node JS', 'Google Book API', 'Mongo DB'],
+    techStack: ['React', 'Node JS', 'Google Book API', 'Mongo DB',],
     githubUrl: 'https://github.com/Madhushan404/Book-Store-E-commerce-website.git',
   
   },
@@ -40,7 +40,7 @@ const projects = [
     subtitle: 'Front-end Development',
     description: 'This allows someone else to get to know my skills and abilities in a better way.',
     image: '/images/my.png',
-    techStack: ['React', 'Node JS', 'Express js', 'Mongo DB'],
+    techStack: ['React', 'Node JS',],
     githubUrl: 'https://github.com/Madhushan404/portfolio.git',
     liveUrl: 'https://madhushanjayathilake.vercel.app/',
   },
@@ -50,7 +50,7 @@ const projects = [
     subtitle: 'Front-End Development',
     description: 'This is a sample E- Commerce Web UI',
     image: '/images/dgaming.png',
-    techStack: ['React', 'Node JS', 'Express js', 'CDNJSlibraries'],
+    techStack: ['HTML', 'CSS', 'Java Script', ],
     githubUrl: 'https://github.com/Madhushan404/D-gaming--E---Commerce-Website-Front-End.git',
    
   },
